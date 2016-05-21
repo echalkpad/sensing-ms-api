@@ -1,0 +1,35 @@
+{
+  "name": "SensorData",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "datetime": {
+      "type": "date"
+    },
+    "seconds": {
+      "type": "number"
+    },
+    "heartrate": {
+      "type": "object"
+    },
+    "temperature": {
+      "type": "object"
+    },
+    "steps": {
+      "type": "number"
+    },
+    "activity": {
+      "type": "object"
+    },
+    "stress": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

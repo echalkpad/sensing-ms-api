@@ -1,0 +1,7 @@
+applications:
+- path: .
+  memory: 1024M
+  instances: 1
+  name: sensing-ms
+  host: sensing-ms
+  disk_quota: 1024M
