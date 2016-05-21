@@ -1,15 +1,11 @@
 {
-  "db": {
-    "name": "db",
-    "connector": "memory"
-  },
-  "mydb": {
-    "host": "ds011452.mlab.com",
-    "port": 11452,
-    "database": "sensingms",
-    "password": "Azerty12345!",
-    "name": "mydb",
-    "user": "sensingms",
-    "connector": "mongodb"
+  "cloudant-sensing-db": {
+    "host": "99343c0b-ea41-423c-8faa-d60056cecff6-bluemix.cloudant.com",
+    "port": 443,
+    "database": "sensingdb",
+    "username": "99343c0b-ea41-423c-8faa-d60056cecff6-bluemix",
+    "password": "af933a97b34af3670d3caf1f0b67454800734d65bebc756dc4fe063cb6e25721",
+    "name": "cloudant-sensing-db",
+    "connector": "cloudant"
   }
 }

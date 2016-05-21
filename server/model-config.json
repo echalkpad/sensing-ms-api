@@ -14,39 +14,43 @@
     ]
   },
   "User": {
-    "dataSource": "mydb",
+    "dataSource": "cloudant-sensing-db",
     "public": false
   },
   "AccessToken": {
-    "dataSource": "mydb",
+    "dataSource": "cloudant-sensing-db",
     "public": false
   },
   "ACL": {
-    "dataSource": "mydb",
+    "dataSource": "cloudant-sensing-db",
     "public": false
   },
   "RoleMapping": {
-    "dataSource": "mydb",
+    "dataSource": "cloudant-sensing-db",
     "public": false
   },
   "Role": {
-    "dataSource": "mydb",
+    "dataSource": "cloudant-sensing-db",
     "public": false
   },
   "Patient": {
-    "dataSource": "mydb",
+    "dataSource": "cloudant-sensing-db",
     "public": true
   },
   "Doctor": {
-    "dataSource": "mydb",
+    "dataSource": "cloudant-sensing-db",
     "public": true
   },
   "Pain": {
-    "dataSource": "mydb",
+    "dataSource": "cloudant-sensing-db",
     "public": false
   },
   "DailyUpdate": {
-    "dataSource": "mydb",
+    "dataSource": "cloudant-sensing-db",
     "public": false
+  },
+  "SensorData": {
+    "dataSource": "cloudant-sensing-db",
+    "public": true
   }
 }

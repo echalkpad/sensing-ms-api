@@ -41,6 +41,11 @@
       "type": "hasMany",
       "model": "DailyUpdate",
       "foreignKey": ""
+    },
+    "sensorData": {
+      "type": "hasMany",
+      "model": "SensorData",
+      "foreignKey": ""
     }
   },
   "acls": [
