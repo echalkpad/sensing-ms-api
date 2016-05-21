@@ -51,10 +51,10 @@
   },
   "SensorData": {
     "dataSource": "cloudant-sensing-db",
-    "public": true
+    "public": false
   },
   "MobileData": {
     "dataSource": "cloudant-sensing-db",
-    "public": true
+    "public": false
   }
 }
