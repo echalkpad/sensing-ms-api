@@ -41,10 +41,6 @@
     "dataSource": "cloudant-sensing-db",
     "public": true
   },
-  "Pain": {
-    "dataSource": "cloudant-sensing-db",
-    "public": false
-  },
   "DailyUpdate": {
     "dataSource": "cloudant-sensing-db",
     "public": false
