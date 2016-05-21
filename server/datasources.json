@@ -1,0 +1,15 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mydb": {
+    "host": "ds011452.mlab.com",
+    "port": 11452,
+    "database": "sensingms",
+    "password": "Azerty12345!",
+    "name": "mydb",
+    "user": "sensingms",
+    "connector": "mongodb"
+  }
+}

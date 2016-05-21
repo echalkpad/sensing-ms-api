@@ -1,0 +1,45 @@
+{
+  "name": "DailyUpdate",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "hand": {
+      "type": "number",
+      "required": true,
+      "default": "1"
+    },
+    "walking": {
+      "type": "number",
+      "required": true,
+      "default": "1"
+    },
+    "cognitive": {
+      "type": "number",
+      "required": true,
+      "default": "1"
+    },
+    "fatigue": {
+      "type": "number",
+      "required": true,
+      "default": "1"
+    },
+    "steps": {
+      "type": "number",
+      "default": "0"
+    },
+    "falls": {
+      "type": "number",
+      "default": "0"
+    },
+    "datetime": {
+      "type": "date"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

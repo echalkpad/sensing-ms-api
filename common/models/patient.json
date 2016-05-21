@@ -1,0 +1,55 @@
+{
+  "name": "Patient",
+  "plural": "Patients",
+  "base": "User",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "firstName": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
+    },
+    "gender": {
+      "type": "string",
+      "default": "m"
+    },
+    "firstComplaintsDate": {
+      "type": "date"
+    },
+    "birthday": {
+      "type": "date"
+    },
+    "ethnicity": {
+      "type": "string"
+    },
+    "diagnosisDate": {
+      "type": "date"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "pains": {
+      "type": "hasMany",
+      "model": "Pain",
+      "foreignKey": ""
+    },
+    "dailyUpdates": {
+      "type": "hasMany",
+      "model": "DailyUpdate",
+      "foreignKey": ""
+    }
+  },
+  "acls": [
+    {
+      "accessType": "*",
+      "principalType": "ROLE",
+      "principalId": "$authenticated",
+      "permission": "ALLOW"
+    }
+  ],
+  "methods": {}
+}
