@@ -52,5 +52,9 @@
   "SensorData": {
     "dataSource": "cloudant-sensing-db",
     "public": true
+  },
+  "MobileData": {
+    "dataSource": "cloudant-sensing-db",
+    "public": true
   }
 }

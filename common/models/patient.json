@@ -46,6 +46,11 @@
       "type": "hasMany",
       "model": "SensorData",
       "foreignKey": ""
+    },
+    "mobileData": {
+      "type": "hasMany",
+      "model": "MobileData",
+      "foreignKey": ""
     }
   },
   "acls": [

@@ -1,0 +1,23 @@
+{
+  "name": "MobileData",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "datetime": {
+      "type": "date"
+    },
+    "vasScore": {
+      "type": "number"
+    },
+    "geopoint": {
+      "type": "geopoint"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
