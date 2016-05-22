@@ -51,6 +51,11 @@
       "type": "hasMany",
       "model": "MobileData",
       "foreignKey": ""
+    },
+    "vasScores": {
+      "type": "hasMany",
+      "model": "VasScore",
+      "foreignKey": ""
     }
   },
   "acls": [

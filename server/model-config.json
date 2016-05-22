@@ -52,5 +52,13 @@
   "MobileData": {
     "dataSource": "cloudant-sensing-db",
     "public": false
+  },
+  "station": {
+    "dataSource": "cloudant-geo-db",
+    "public": true
+  },
+  "VasScore": {
+    "dataSource": "cloudant-sensing-db",
+    "public": false
   }
 }

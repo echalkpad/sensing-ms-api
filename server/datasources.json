@@ -7,5 +7,14 @@
     "password": "af933a97b34af3670d3caf1f0b67454800734d65bebc756dc4fe063cb6e25721",
     "name": "cloudant-sensing-db",
     "connector": "cloudant"
+  },
+  "cloudant-geo-db": {
+    "host": "99343c0b-ea41-423c-8faa-d60056cecff6-bluemix.cloudant.com",
+    "port": 443,
+    "database": "cloudant-geo-db",
+    "username": "99343c0b-ea41-423c-8faa-d60056cecff6-bluemix",
+    "password": "af933a97b34af3670d3caf1f0b67454800734d65bebc756dc4fe063cb6e25721",
+    "name": "cloudant-geo-db",
+    "connector": "cloudant"
   }
 }
