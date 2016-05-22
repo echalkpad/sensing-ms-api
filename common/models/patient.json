@@ -61,6 +61,11 @@
       "type": "hasMany",
       "model": "Drug",
       "foreignKey": ""
+    },
+    "comments": {
+      "type": "hasMany",
+      "model": "Comment",
+      "foreignKey": ""
     }
   },
   "acls": [

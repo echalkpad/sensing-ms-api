@@ -64,5 +64,9 @@
   "Drug": {
     "dataSource": "cloudant-sensing-db",
     "public": false
+  },
+  "Comment": {
+    "dataSource": "cloudant-sensing-db",
+    "public": false
   }
 }
