@@ -13,7 +13,7 @@
       "type": "number"
     },
     "comment": {
-      "type": "string"
+      "type": "object"
     },
     "geopoint": {
       "type": "geopoint"
