@@ -12,6 +12,9 @@
     "vasScore": {
       "type": "number"
     },
+    "comment": {
+      "type": "string"
+    },
     "geopoint": {
       "type": "geopoint"
     }
