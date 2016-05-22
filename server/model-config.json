@@ -63,6 +63,6 @@
   },
   "Drug": {
     "dataSource": "cloudant-sensing-db",
-    "public": true
+    "public": false
   }
 }
