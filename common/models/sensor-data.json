@@ -26,6 +26,9 @@
     },
     "stress": {
       "type": "number"
+    },
+    "analyzed": {
+      "type": "number"
     }
   },
   "validations": [],

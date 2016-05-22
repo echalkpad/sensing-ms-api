@@ -60,5 +60,9 @@
   "VasScore": {
     "dataSource": "cloudant-sensing-db",
     "public": false
+  },
+  "Drug": {
+    "dataSource": "cloudant-sensing-db",
+    "public": true
   }
 }
