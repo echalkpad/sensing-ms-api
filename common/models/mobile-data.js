@@ -10,7 +10,7 @@ var tone_analyzer = watson.tone_analyzer({
 
 module.exports = function(MobileData) {
   MobileData.observe('before save', function filterProperties(ctx, next) {
-        if (ctx.instance) {
+        if (ctx.instance && ctx.instance.comment && ctx.instance.comment.desc) {
           async.waterfall([
             function(cb) {
               tone_analyzer.tone({ text: ctx.instance.comment.desc },
